@@ -48,3 +48,15 @@
     - add params to dvc.yaml file 
     - run "dvc repro" to test the pipeline with params
     - git add/commit/push
+
+16. Experiment tracking with dvclive:
+    - pip install dvclive
+    - add dvclive Code Block in the model_evaluation.py
+    - run "dvc exp run", it will create a new dvc.yaml(if not there) and dvclive directory(each run considered as a new experiment)
+    - run "dvc exp show", Install VScode dvc extension
+    - run "dvc exp remove {exp-name}" to remove exp
+    - run "dvc exp apply {exp-name}" to reproduce prev exp
+    - change param.yaml to re-run code (produce new experiments)
+    - git add/commit/push
+
+17. 
