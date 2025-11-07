@@ -39,5 +39,12 @@
     - create dvc.yaml file and add stages to it
     - dvc init 
     - dvc repro (test pipeline automation)
+    - dvc dag
+    - git add/commit/push
 
-15. 
+15. Setting up the dvc pipeline with params:
+    - add params.yaml file
+    - add the params setup (in each file)
+    - add params to dvc.yaml file 
+    - run "dvc repro" to test the pipeline with params
+    - git add/commit/push
