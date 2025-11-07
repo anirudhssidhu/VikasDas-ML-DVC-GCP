@@ -1,0 +1,14 @@
+1. Create a repo on Github with readme.md, etc
+2. Clone the repo in the local
+3. create a vitural env .venv
+    - py -3.11 -m venv .venv
+    - source .venv/Scripts/activate
+    - python -m pip install --upgrade pip
+
+4. create a requirements.txt file for libraries
+5. pip install -r requirements.txt
+6. Create two folders src and experiments
+7. Experiments folder - 
+    - notebook.ipynb
+    - spam.csv
+
