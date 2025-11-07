@@ -34,3 +34,10 @@
 
 13. Add data, models, reports, logs directories to .gitignore file:
     - git add . / git commit -m "pipeline, models, reports, logs completed" / git push origin main
+
+14. Setting up dvc pipeline (without params):
+    - create dvc.yaml file and add stages to it
+    - dvc init 
+    - dvc repro (test pipeline automation)
+
+15. 

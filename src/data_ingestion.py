@@ -79,7 +79,7 @@ def save_data(train_data:pd.DataFrame, test_data:pd.DataFrame, data_path:str) ->
 
 def main():
     try:
-        test_size = 0.2
+        test_size = 0.20
         data_path = "https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv"
 
         df = load_data(data_url=data_path)
